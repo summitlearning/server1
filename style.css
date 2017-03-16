@@ -1,16 +1,18 @@
-.logo{
-    font-size:1.5em;
-    display:block;
-    padding:5px;
+.logo {
+    font-size: 1.5em;
+    display: block;
+    padding: 5px;
 }
-*{
-    font-family:Arial;
+
+* {
+    font-family: Arial;
 }
-a:hover{
-   background-color:#ccc;
-    
+
+a:hover {
+    background-color: #ccc;
 }
-a{
-    text-decoration:none;
-    color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }

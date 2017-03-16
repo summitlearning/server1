@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>SummitLearning: S1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</head>
+
+<body>
+<a href="index.html" class="logo"><<< Back</a>
+
+<embed src="flash/Nesbox.swf" width="600" height="480" id="emulator">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script>
+    
+    var resizeOwnEmulator = function(width, height)
+    {
+        var emulator = $('#emulator');
+        emulator.css('width', width);
+        emulator.css('height', height);
+    }
+
+    
+
+</script>
+<script>
+        function panicClose() {
+            var x = document.getElementById('holder');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+            else {
+                x.style.display = 'none';
+            }
+
+
+        }
+
+        function lightToggle() {
+            var y = document.body.style.backgroundColor;
+            if (document.body.style.backgroundColor === 'white') {
+                document.body.style.backgroundColor = 'black';
+
+            }
+            else {
+                document.body.style.backgroundColor = 'white';
+            }
+        }
+    </script>
+</body>
+
+</html>
+
