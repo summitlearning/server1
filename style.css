@@ -21,8 +21,8 @@ display:block;
   margin:auto;
 }
 .back{
-    padding:10px;
-    float:left;
-    clear:both;
+    padding:5px;
+    /*float:left;*/
+    /*clear:both;*/
     font-size:1.3em;
 }
