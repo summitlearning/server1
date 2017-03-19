@@ -8,12 +8,19 @@
     font-family: Arial;
 }
 
-a:hover {
+ul li a:hover {
     background-color: black;
+}
+.mirrors{
+    /*display:none;*/
+}
+a img:hover{
+        transform: scale(1.1); /* Standard syntax */
 }
 html{
     color:white;
-    background:url(succ.jpg);
+    /*background:url(succ.jpg);*/
+    background-color:#363535 ;
 }
 a {
     text-decoration: none;
@@ -24,7 +31,24 @@ display:block;
   margin:auto;
 }
 .back{
-    padding:5px;
-   
+    padding:3px;
+
     font-size:1.3em;
+}
+button{
+    padding:3px;
+    font-weight: 700;
+
+    font-size:1.2em;
+}
+/*.list{*/
+/*    columns:3;*/
+/*    width:100%;*/
+/*}*/
+ul{
+      list-style-type: none;
+
+}
+.title{
+    width:50%;
 }
