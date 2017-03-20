@@ -3,7 +3,6 @@
     display: block;
     padding: 5px;
 }
-
 * {
     font-family: Arial;
 }
@@ -41,10 +40,9 @@ button{
 
     font-size:1.2em;
 }
-/*.list{*/
-/*    columns:3;*/
-/*    width:100%;*/
-/*}*/
+.title{
+    background-color:black;
+}
 ul{
       list-style-type: none;
 
